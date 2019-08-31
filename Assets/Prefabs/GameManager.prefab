@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8795882772372037239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8795882772372037237}
+  - component: {fileID: 8795882772372037238}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8795882772372037237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8795882772372037239}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -125.75667, y: 41.61809, z: 0.58832103}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8795882772372037238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8795882772372037239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e878e7cb1a9d54aa24a24aca0679f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump: 122
+  buster: 0
+  left: 0
+  right: 0
+  isInputEnabled: 0
+  isClassic: 0
+  LayerNameGround: Ground
+  LayerNameEnemy: Enemy
+  LayerNameMegaman: Player
+  LayerNameWall: Wall
+  layerGround:
+    serializedVersion: 2
+    m_Bits: 0
+  layerEnemy:
+    serializedVersion: 2
+    m_Bits: 0
+  layerMegaman:
+    serializedVersion: 2
+    m_Bits: 0
+  layerWall:
+    serializedVersion: 2
+    m_Bits: 0

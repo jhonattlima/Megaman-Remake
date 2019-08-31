@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: d1f467686d24f4c7698fac7048739c4c
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 86c43194cfb3748df89d6bfa214a4854
+  - enabled: 1
+    path: Assets/Scenes/GutsmanStageClassic.unity
+    guid: e00339942ebbf4027a8ff8ee8415acec
+  - enabled: 1
+    path: Assets/Scenes/GutsmanStageDirectorsCut.unity
+    guid: a73e2266fdf04664593f9cd133ba6fb4
+  m_configObjects: {}
